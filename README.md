@@ -80,49 +80,64 @@ STEP 5: <br/>
 <p align="center">I'm using the Command Prompt to check if the IP address has changed. I use the "IPCONFIG" command to examine the IP settings of the network adapter. As you can see, the IP address was successfully changed.</p>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <hr width="100%" size="2">
 
 <br />
 
 <p align="center"> 
-STEP 6 (RENAMING CLIENT DEVICE): <br/>
-<img src="https://i.imgur.com/38kv6So.png" height="70%" width="70%"/> </p>
+STEP 6 (Adding IP Address for Helpdesk Device): <br/>
+<img src="https://i.imgur.com/iBvXZsN.png" height="70%" width="70%"/> </p>
 
 
-<p align="center">As you can see, the Client device has been renamed. I have renamed it "DEKSTOP2".</p>
+<p align="center">I need to add an IP address to the Windows 10 device which will be used by the Helpdesk person so that it can join to the domain. To change the IP address, pick the device's "Ethernet" adapter.</p>
+
+<br />
+<br />
+
+<p align="center"> 
+<img src="https://i.imgur.com/zjn4g8K.png" height="70%" width="70%"/> </p>
+
+
+<p align="center">I right-clicked on the Ethernet adapter and chose the "PROPERTIES" option. From there, I can change the IP address. To access IP settings, I selected "TCP/IPv4" from the adapter's properties menu.</p>
+
+
+<br />
+<br />
+
+<p align="center"> 
+<img src="https://i.imgur.com/m9XZREk.png" height="70%" width="70%"/> </p>
+
+
+<p align="center">I successfully assigned a new IP address to the Windows 10 device. I've set the IP address to "192.168.1.3".</p>
+
+
+<br />
+<br />
+
+<p align="center"> 
+<img src="https://i.imgur.com/6Ui5EU4.png" height="60%" width="60%"/> </p>
+
+
+<p align="center">I'm in the command prompt of my Windows 10 device. I typed "IPCONFIG" to see if the IP address was successfully set, and as you can see, it was.</p>
+
+
+<br />
+<br />
+
+<p align="center"> 
+<img src="https://i.imgur.com/vavL8wz.png" height="60%" width="60%"/> </p>
+
+
+<p align="center">Here, I'm pinging the "Server 2016" device to see whether I can reach it. As you can see, I am able to reach the device, and the pings were successful.</p>
+
+
+
+
+
+
+
+
+
 
 <a href="https://www.example.com">
   <button>NEXT</button>
