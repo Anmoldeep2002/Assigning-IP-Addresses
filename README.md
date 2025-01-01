@@ -130,11 +130,25 @@ STEP 6 (Adding IP Address for Helpdesk Device): <br/>
 
 <p align="center">Here, I'm pinging the "Server 2016" device to see whether I can reach it. As you can see, I am able to reach the device, and the pings were successful.</p>
 
+<hr width="100%" size="2">
+
+<br />
+
+<p align="center"> 
+STEP 7 (Adding IP Address for Client Device): <br/>
+<img src="https://i.imgur.com/uZIzeYD.png" height="70%" width="70%"/> </p>
 
 
+<p align="center">Here, I successfully assigned a new IP address to the new "DESKTOP2" device which will be used by the client. I've set the IP address to "192.168.1.5". This ensures that the device is on the same subnet and therefore can be joined to the domain.</p>
+
+<br />
+<br />
+
+<p align="center"> 
+<img src="https://i.imgur.com/GIFt7fa.png" height="60%" width="60%"/> </p>
 
 
-
+<p align="center">I'm at the command prompt for the "DESKTOP2" device. I typed "IPCONFIG" to see if the IP address was successfully set, and as you can see, it was.</p>
 
 
 
